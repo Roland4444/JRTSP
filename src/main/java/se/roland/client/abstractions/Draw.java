@@ -13,7 +13,7 @@ public abstract class Draw extends Thread{
         while (true){
                 DrawIt();
             try {
-                Thread.sleep(10);
+                Thread.sleep(10000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
